@@ -1,17 +1,15 @@
 #pragma once
 #include "MiastoList.h"
 #include "String.h"
-//#include "MiastoHashMap.h";
 
 class MiastoHashMap {
 private:
-//	MiastoList cityList;
-	static const int size = 10000;
-	MiastoList* table[size];
+    int size = 20000;
+    MiastoList* table[20000];
 public:
-	MiastoHashMap();
-	unsigned int hashFunction(String& str);
-	void insert(String key, Miasto &value);
-	Miasto* get(String key);
-	void resetVariables();
+    MiastoHashMap();
+    unsigned long hashFunction(String& str);
+    void insert(String key, Miasto& value);
+    Miasto* get(String key);
+    void resetVariables();
 };

@@ -132,15 +132,19 @@
     <ClCompile Include="Miasto.cpp" />
     <ClCompile Include="MiastoHashMap.cpp" />
     <ClCompile Include="MiastoList.cpp" />
-    <ClCompile Include="MiastoPointerList.cpp" />
+    <ClCompile Include="PathList.cpp" />
+    <ClCompile Include="PriorityQueue.cpp" />
     <ClCompile Include="String.cpp" />
+    <ClCompile Include="FIFOqueue.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EdgeList.h" />
+    <ClInclude Include="FIFOqueue.h" />
     <ClInclude Include="Miasto.h" />
     <ClInclude Include="MiastoHashMap.h" />
     <ClInclude Include="MiastoList.h" />
-    <ClInclude Include="MiastoPointerList.h" />
+    <ClInclude Include="PathList.h" />
+    <ClInclude Include="PriorityQueue.h" />
     <ClInclude Include="String.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

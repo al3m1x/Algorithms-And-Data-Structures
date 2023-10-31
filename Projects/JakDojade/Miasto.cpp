@@ -1,72 +1,71 @@
 #include "Miasto.h"
-//#include "EdgeList.h"
 
-Miasto::Miasto(Miasto& m) {
-	name=m.name;
-	x=m.x;
-	y=m.y;
-	edges=m.edges;
-	visited=m.visited;
+Miasto::Miasto(Miasto& m) { //copy constructor
+    name = m.name;
+    x = m.x;
+    y = m.y;
+    edges = m.edges;
+    visited = m.visited;
 }
 
 String Miasto::getName() const {
-	return this->name;
+    return this->name;
 }
 
 int Miasto::getX() const {
-	return this->x;
+    return this->x;
 }
 
 int Miasto::getY() const {
-	return this->y;
+    return this->y;
 }
 
 bool Miasto::getVisited() const {
-	return this->visited;
+    return this->visited;
 }
 EdgeList Miasto::getEdges() const {
-	return this->edges;
+    return this->edges;
 }
 
 void Miasto::setName(String name) {
-	this->name = name;
+    this->name = name;
 }
 
 void Miasto::setX(int x) {
-	this->x = x;
+    this->x = x;
 }
 
 void Miasto::setY(int y) {
-	this->y = y;
+    this->y = y;
 }
 
 void Miasto::setEdges(EdgeList edges) {
-	this->edges = edges;
+    this->edges = edges;
 }
 
 void Miasto::setVisited(bool visited) {
-	this->visited = visited;
+    this->visited = visited;
 }
 void Miasto::setDistance(int distance) {
-	this->distance = distance;
+    this->distance = distance;
 }
 void Miasto::setPrevious(String previous) {
-	this->previous = previous;
+    this->previous = previous;
 }
 
 int Miasto::getDistance() const {
-	return this->distance;
+    return this->distance;
 }
 String Miasto::getPrevious() const {
-	return this->previous;
+    return this->previous;
 }
 
 
-Miasto::Miasto() : x(NULL), y(NULL), name(), edges() {};
-Miasto::Miasto(int x, int y) : x(x), y(y), name(), edges() {};
-Miasto::Miasto(String name, int x, int y) : name(name), x(x), y(y), edges() {};
-Miasto::Miasto(String name, int x, int y, EdgeList edges) : name(name), x(x), y(y), edges(edges) {};
+Miasto::Miasto() : x(NULL), y(NULL), name(), edges() {}; //konstruktor bezparametrowy
+Miasto::Miasto(int x, int y) : x(x), y(y), name(), edges() {}; //konstruktor z samymi wspó³rzêdnymi
+Miasto::Miasto(String name, int x, int y) : name(name), x(x), y(y), edges() {}; //konstruktor ze wspó³rzêdnymi i nazw¹
+Miasto::Miasto(String name, int x, int y, EdgeList edges) : name(name), x(x), y(y), edges(edges) {}; //kontruktor ze wspó³rzêdnymi, nazw¹ i krawêdziami
 
-void Miasto::addEdges(Edge edge) {
-	this->edges.AddLastEdge(edge);
+void Miasto::addEdges(Edge edge) { //dodajemy krawêdŸ do listy krawêdzi danego miasta
+    this->edges.AddLastEdge(edge);
 }

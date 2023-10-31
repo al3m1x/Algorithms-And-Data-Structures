@@ -1,0 +1,32 @@
+﻿  AttributeNode.cpp
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\AttributeNode.h(17,2): warning C4091: "typedef ": zignorowano na lewo od "NodeAtt" podczas gdy brak deklaracji zmiennej
+  AttributesList.cpp
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\AttributeNode.h(17,2): warning C4091: "typedef ": zignorowano na lewo od "NodeAtt" podczas gdy brak deklaracji zmiennej
+  MainList.cpp
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\AttributeNode.h(17,2): warning C4091: "typedef ": zignorowano na lewo od "NodeAtt" podczas gdy brak deklaracji zmiennej
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\SelectorNode.h(11,2): warning C4091: "typedef ": zignorowano na lewo od "NodeSel" podczas gdy brak deklaracji zmiennej
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\MainNode.h(24,2): warning C4091: "typedef ": zignorowano na lewo od "NodeMain" podczas gdy brak deklaracji zmiennej
+  MainNode.cpp
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\AttributeNode.h(17,2): warning C4091: "typedef ": zignorowano na lewo od "NodeAtt" podczas gdy brak deklaracji zmiennej
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\SelectorNode.h(11,2): warning C4091: "typedef ": zignorowano na lewo od "NodeSel" podczas gdy brak deklaracji zmiennej
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\MainNode.h(24,2): warning C4091: "typedef ": zignorowano na lewo od "NodeMain" podczas gdy brak deklaracji zmiennej
+  ProcesorCSS.cpp
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\SelectorNode.h(11,2): warning C4091: "typedef ": zignorowano na lewo od "NodeSel" podczas gdy brak deklaracji zmiennej
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\AttributeNode.h(17,2): warning C4091: "typedef ": zignorowano na lewo od "NodeAtt" podczas gdy brak deklaracji zmiennej
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\MainNode.h(24,2): warning C4091: "typedef ": zignorowano na lewo od "NodeMain" podczas gdy brak deklaracji zmiennej
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\ProcesorCSS.cpp(171,9): warning C4101: "numberArray3": lokalna zmienna, do której nie istnieje odwołanie
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\ProcesorCSS.cpp(170,9): warning C4101: "numberArray2": lokalna zmienna, do której nie istnieje odwołanie
+  SelectorNode.cpp
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\SelectorNode.h(11,2): warning C4091: "typedef ": zignorowano na lewo od "NodeSel" podczas gdy brak deklaracji zmiennej
+  SelectorsList.cpp
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\SelectorNode.h(11,2): warning C4091: "typedef ": zignorowano na lewo od "NodeSel" podczas gdy brak deklaracji zmiennej
+  String.cpp
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\String.cpp(37,29): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\String.cpp(75,49): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\String.cpp(98,46): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\String.cpp(111,42): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+  Trwa generowanie kodu
+  Previous IPDB not found, fall back to full compilation.
+  All 83 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Zakończono generowanie kodu
+  ProcesorCSS.vcxproj -> C:\Users\al3m1x\Desktop\Juliusz Radziszewski\ProcesorCSS\x64\Release\ProcesorCSS.exe

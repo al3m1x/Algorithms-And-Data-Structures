@@ -1,0 +1,6 @@
+﻿  MainList.cpp
+  MainNode.cpp
+  ProcesorCSS.cpp
+C:\Users\al3m1x\Desktop\ZAPIS5NA10LEPSZY\ProcesorCSS\ProcesorCSS.cpp(359,279): warning C4101: "numToFunc": lokalna zmienna, do której nie istnieje odwołanie
+  Generowanie kodu...
+  ProcesorCSS.vcxproj -> C:\Users\al3m1x\Desktop\ZAPIS5NA10LEPSZY\ProcesorCSS\x64\Debug\ProcesorCSS.exe

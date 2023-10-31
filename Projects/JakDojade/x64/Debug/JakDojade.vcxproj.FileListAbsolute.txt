@@ -1,1 +1,2 @@
 C:\Users\al3m1x\Desktop\Juliusz Radziszewski\JakDojade\x64\Debug\JakDojade.exe
+E:\GitHub\Algorithms-And-Data-Structures\Projects\JakDojade\x64\Debug\JakDojade.exe

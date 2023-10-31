@@ -1,2 +1,17 @@
-﻿  MiastoList.cpp
-  JakDojade.vcxproj -> C:\Users\al3m1x\Desktop\Juliusz Radziszewski\JakDojade\x64\Debug\JakDojade.exe
+﻿  EdgeList.cpp
+  JakDojade.cpp
+  Miasto.cpp
+  MiastoHashMap.cpp
+  MiastoList.cpp
+  PathList.cpp
+  PriorityQueue.cpp
+  String.cpp
+E:\GitHub\Algorithms-And-Data-Structures\Projects\JakDojade\String.cpp(18,30): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+E:\GitHub\Algorithms-And-Data-Structures\Projects\JakDojade\String.cpp(30,26): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+E:\GitHub\Algorithms-And-Data-Structures\Projects\JakDojade\String.cpp(40,18): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+E:\GitHub\Algorithms-And-Data-Structures\Projects\JakDojade\String.cpp(69,14): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+E:\GitHub\Algorithms-And-Data-Structures\Projects\JakDojade\String.cpp(92,14): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+E:\GitHub\Algorithms-And-Data-Structures\Projects\JakDojade\String.cpp(105,14): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+  FIFOqueue.cpp
+  Generowanie kodu...
+  JakDojade.vcxproj -> E:\GitHub\Algorithms-And-Data-Structures\Projects\JakDojade\x64\Debug\JakDojade.exe
